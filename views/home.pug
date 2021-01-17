@@ -1,0 +1,53 @@
+extends base.pug
+
+block scripts
+    script(src="../static/index.js")
+
+block style
+     style
+      include ../static/style.css
+
+block content
+    
+    section#introsection
+      div  WELCOME TO OUR DANCE ACADEMY
+      div.small Dance Dance Sirf-Dance
+
+    section#missionsection
+      h2 OUR MISSIONS
+      div.card 
+        h3 Dance perfection
+        div.cardbox 
+          div.cardimg 
+           img(src="../static/ies/our.jpg")
+          
+          div.cardcontent 
+           p This is the best dance academy
+
+      div.card
+        h3 All forms
+        div.cardbox 
+          div.cardimg 
+           img(src="../static/ies/pic11.jpg")
+          
+          div.cardcontent 
+           p This is the best dance academy
+
+      div.card 
+        h3 Flexible slots
+        div.cardbox 
+          div.cardimg 
+           img(src="../static/ies/pic12.jpg")
+          
+          div.cardcontent 
+           p This is the best dance academy
+        
+
+    section#sponsersection
+      h2 OUR SPONSERS
+      div#sponsers 
+        img(src="../static/ies/logo1.jpg", class="spimage")
+        img(src="../static/ies/logo2.png", class="spimage")
+        img(src="../static/ies/logo3.jpg", class="spimage")
+    
+

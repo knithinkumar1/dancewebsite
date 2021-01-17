@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbar{
+    background-color: rgb(104, 113, 245);
+    padding: 13px 14px;
+}
+
+.logo{
+    display: flex;
+    color: white;
+   align-items: center;
+   margin: -6px 4px;
+}
+.logo img{
+    height: 30px;
+    /* filter: invert(1);    */
+    /* invert == black to white */
+    border:1px solid black;
+    border-radius: 6px;  
+}
+.logo h5{
+    padding: 0px 6px;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 6px 20px;
+}
+#navbar li a:hover{
+    color:black;
+}
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+
+#introsection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    background:center / cover no-repeat url('/static/bg.jpg');
+    height: 1000px;
+    background-color: red;
+    opacity: 0.9;
+}
+
+#introsection div.small{
+    font-size: 25px;
+    padding-top: 5px;
+}
+#sponsersection{
+    height: 315px;
+    background-color:rgb(245, 245, 89);
+    text-align: center;
+    padding-top: 5px;
+}
+#sponsersection h2{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+#sponsers{
+    height: 260px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.spimage{
+padding:20px 10px;
+ height: 180px;
+
+}
+
+#missionsection {
+    height: 350px;
+    text-align: center;
+    padding-top: 10px;
+    background-color:rgb(250, 209, 209); 
+}
+#missionsection h2{
+     margin-top: 20px;
+}
+.card{
+    display: inline-block;
+    border:2px solid black;
+    border-radius: 10px;
+    width: 20%;
+    margin:23px 15px;
+    height: 230px;
+}
+.card h3{
+    margin: 12px 12px;
+}
+
+.cardbox{
+    display: flex;
+     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardimg img{
+    height: 120px;
+    width: 150px;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 40px;
+    background-color:black;
+    font-size: 15px;
+}
